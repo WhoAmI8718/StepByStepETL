@@ -18,13 +18,16 @@ CSV → extract → transform → validate → load → PostgreSQL
 
 ```powershell
 python -m venv .venv
+```
 
 Активировать его:
-.\.venv\Scripts\Activate.ps1
-
-Установить инструменты разработки:
-python -m pip install -r requirements-dev.txt
-
-Затем сохраните его:
 
 ```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+Установить инструменты разработки:
+
+```powershell
+python -m pip install -r requirements-dev.txt
+```
